@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nikhil</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e0f8eded8a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
+    <div id="header">
+        <div class="container">
+            <div class="navbar">
+                <nav>
+                    <img src="logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>    
+            <div class="header-text">
+                <p>Front end Developer</p>
+                <h1>Hii,I'm <span>Nikhil</span></h1>
+                <br>
+                <h3>From Nashik.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------ABOUT----------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Profile_photo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Nikhil Kokate, a passionate web developer currently pursuing a Bachelor of Engineering in Information Technology. My journey into the world of technology started with a curiosity to create, design, and innovate in the digital space.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links Active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="Skills">
+                        <ul>
+                            <li><span>Data Analysis</span><br></li>Information decisions </li>
+                            <li><span>Web Development</span><br></li>Creating Web pages using HTML, CSS, Javascript. </li>
+                            <li><span>C/C++</span><br></li>Game Development </li>
+                        </ul>
+                    </div>
+               
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Oct 2023 - Current</span></li>C++ Programming Intern at CodeSoft</li>
+                        <li><span>Oct 2023 - Current</span></li>Web Development Intern at CodeSoft</li>
+                        <li><span>Oct 2023 - Current</span></li>Web Development Intern at Bharat Intern</li>
+                        <li><span>Feb 2023 - Apr 2023</span></li>Data Analytics Intern at Trainity.</li>
+                    </ul>
+                </div>
+           
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2024</span></li>Bachelor of Engineering(Information Technology) from SVIT, Nashik </li>
+                    <li><span>2020</span></li>Higher Secondary School(XII Science) from Jr. College, Vadangali </li>
+                    <li><span>2018</span></li>Secondary School(X) from K.K.Wagh Vidyabhavan, Niphad</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--  ------------------ SERVICES---------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-search"></i>
+                    <h2>Data Analytics</h2>
+                    <p>Offering data analytics services to transform raw data into actionable insights, driving informed decisions and optimizing processes.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> Delivering websites or web apps, cybersecurity solutions, UX/UI design, eCommerce solutions, website architectures, QA testing, maintenance, consulting, and even a custom CMS.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Designing</h2>
+                    <p> Provides you with a customized website design that's perfect for your business or personal site.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------PORTFOLIO------------------------------------------------>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Loan_Case.jpg">
+                    <div class="layer">
+                        <h3>Bank Loan Case Study</h3>
+                        <p>This project aims to identify factors that influence loan approval decisions, develop predictive models to assess creditworthiness, and ultimately help financial institutions make more informed lending decisions while minimizing risks.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="hiring_process_analysis.png">
+                    <div class="layer">
+                        <h3>Hiring Process Analysis</h3>
+                        <p> Project aims to improve recruitment efficiency by analyzing candidate data, interview performance, and hiring outcomes. It seeks insights to streamline the hiring process, reduce costs, and select qualified candidates more effectively.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+
+                </div>
+
+                <div class="work">
+                    <img src="erp.jpg">
+                    <div class="layer">
+                        <h3>ERP System</h3>
+                        <p>
+                            The "ERP System" data analytics project aims to use ERP data to enhance operations, optimize resources, and improve decision-making within an organization, ultimately driving overall business efficiency and effectiveness.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-------------------------------------CONTACT--------------------------------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-envelope"></i>nikhil.b.kokate@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9021584882</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/nikhil.kokate.58555"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/nikhilkokate22"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/nikhil_kokate22?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nikhilbkokate"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Nikhil's Resume (1).pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="Email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p><i class="fa-regular fa-copyright"></i> 2023 Miracle Developers. </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("Active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("Active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+
+        // ----------------------------------------------Go to top Button--------------------------------------------
+    
+        let mybutton = document.getElementById("myBtn");
+
+        
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+    </script>
+   
+
+</body>
+
+</html>
